@@ -1,0 +1,11 @@
+header{ background-color: #1f2937;}
+
+.intro{ background-color: #1f2937; color: #ffffff; display: flex;}
+
+.info{ height: 300px; display: flex; flex: 1;flex-direction:  row; align-items: center; 
+    justify-content: space-between;}
+
+footer{ background-color: #1f2937;
+color: #ffffff;}
+
+.testimonials{ background-color: #e5e7eb;}
