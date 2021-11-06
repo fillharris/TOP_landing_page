@@ -1,11 +1,56 @@
-header{ background-color: #1f2937;}
+* { 
+    font-family: Arial, Helvetica, sans-serif; margin: 20px;
+}
 
-.intro{ background-color: #1f2937; color: #ffffff; display: flex;}
+header{ 
+    background-color: #1f2937;font-size: larger;font-weight: 700; padding-bottom: 100px;
+}
+.nav{
+    text-align: right;
+    
+}
 
-.info{ height: 300px; display: flex; flex: 1;flex-direction:  row; align-items: center; 
-    justify-content: space-between;}
+.container-1{ 
+    background-color: #1f2937; color: #ffffff; display: flex;
+    height: 300px; min-width: 0;
+}
 
-footer{ background-color: #1f2937;
-color: #ffffff;}
+.container-2{ 
+    height: 300px; display: flex; 
+    
+}
+.headshot-1{
+    flex: 1; min-width: 0;
+}
+.headshot-2{
+    flex: 1; min-width: 0;
+}
+.headshot-3{
+    flex: 1; min-width: 0;
+}
+.headshot-4{
+    flex: 1; min-width: 0;
+}
+footer{ 
+    background-color: #1f2937;
+    color: #ffffff;
+}
 
-.testimonials{ background-color: #e5e7eb;}
+.testimonials{ 
+    background-color: #e5e7eb; padding: 110px; font-style: italic;
+    height: 180px; font-size: 36px; color: #1f2937;
+    text-align: center;
+}
+
+.card-main{
+    display: block;
+    background-color: #3882f6;
+    box-shadow: 0px 5px 10px;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}

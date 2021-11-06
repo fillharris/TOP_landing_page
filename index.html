@@ -10,40 +10,52 @@
 <body>
     <header class="header">
         <img src="images/scissors.png" alt="logo" height="50px" width="50px">
-        <nav></nav>
+        <nav class="nav">
+            <a href="#appointments" style="color: #e5e7eb; text-decoration: none;">Appointments</a>
+            <a href="#info" style="color: #e5e7eb; text-decoration: none; ">Styles</a>
+            <a href="#testimonials" style="color: #e5e7eb; text-decoration: none;">Testimonials</a>
+        </nav>
     </header>
-    <div class="intro">
+    <div class="container-1" id="intro">
         <h1>The number #1 barber on the intranet!</h1>
-
+        <button>Appointment</button>
+        <img src="images/barbershop.jpg" alt="Barber Image" height="213px"; width="320px";>
     </div>
-    <div class="info">
-        <h2>Our most popular styles this year!</h2>
-        <figure class="head-shot">
+    <div>   
+        <h2 style="text-align: center;">Our most popular styles this year!</h2>
+    </div>
+    <div class="container-2" id="info">
+        <figure class="headshot-1">
             <img src="images/image1" alt="image 1" height="204px" width="306px">
             <figcaption>The hip dad style.</figcaption> 
         </figure>
-        <figure class="headshot">
+        <figure class="headshot-2">
             <img src="images/image2" alt="image 2" height="204px" width="306px">
             <figcaption>The minimalist carefree style.</figcaption> 
         </figure>
-        <figure class="headshot">
+        <figure class="headshot-3">
             <img src="images/image3" alt="image 3" height="204px" width="306px">
-            <figcaption text-align: center>The serious yet not really style.</figcaption> 
+            <figcaption>The serious yet not really style.</figcaption> 
         </figure>
-        <figure class="headshot">
+        <figure class="headshot-4">
             <img src="images/image4" alt="image 4" height="204px" width="306px">
             <figcaption>I don't know what this one is.</figcaption> 
         </figure>
     </div>
    
-    <div class="testimonials">
-        <q>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</q><br>
-        <strong><cite style="text-align: right; display: block;">Joe Shmoe</cite></strong> 
+    <div class="testimonials" id="testimonials">
+        <q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</q><br>
+        <strong><p style="text-align: right; display: block; font-size: 30px;">-Joe Shmoe</p></strong> 
+    </div>
+    <div id="appointments" style="height: 200px;">
+        <p class="card-main">
+            <button style="float: right, center; background-color: #3882f6; color: #ffffff; font-size: larger;">Appointment</button> 
+            <h2 style="color: #ffffff;">Schedule your next kut now!</h2>       
+        </p>
 
     </div>
     <footer>
         <p style="text-align: center;">Copyright &copy FutzKuts 2021</p>
-
     </footer>
     
 </body>
