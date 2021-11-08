@@ -13,33 +13,42 @@ header{
 .container-1{ 
     background-color: #1f2937; color: #ffffff; display: flex;
     height: 300px; min-width: 0;
+    flex-wrap: wrap;
+}
+
+.table {
+    display: flex;
+    max-width: 100%;
+    height: auto;
 }
 
 .container-2{ 
     height: 300px; display: flex; 
+    justify-content: space-between;
+    max-width: 100%;
+    height: auto;
+    flex-wrap: wrap;
     
 }
 .headshot-1{
-    flex: 1; min-width: 0;
+    flex: 1; 
 }
 .headshot-2{
-    flex: 1; min-width: 0;
+    flex: 1; 
 }
 .headshot-3{
-    flex: 1; min-width: 0;
+    flex: 1;  
 }
 .headshot-4{
-    flex: 1; min-width: 0;
-}
-footer{ 
-    background-color: #1f2937;
-    color: #ffffff;
+    flex: 1;  
 }
 
 .testimonials{ 
     background-color: #e5e7eb; padding: 110px; font-style: italic;
     height: 180px; font-size: 36px; color: #1f2937;
     text-align: center;
+    flex-wrap: wrap;
+    display: flex;
 }
 
 .card-main{
@@ -53,4 +62,9 @@ footer{
     border-radius: 10px;
     margin-bottom: 30px;
     margin-top: 80px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #ffffff;
 }
